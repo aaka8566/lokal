@@ -1,0 +1,58 @@
+.singleproddiv{
+    margin-left: 1rem;
+  text-align: center;
+}
+.imgdiv{
+    width: 100%;
+}
+.image{
+    width: 100%;
+height: 200px;
+object-fit: contain;
+}
+.infodiv{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 0px solid grey;
+    font-weight: 700;
+}
+.infodiv>div{
+    padding-top: 0.5rem;
+}
+.pricedisc{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.description{
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.description>div{
+    padding-top: 1rem;
+}
+.infodiv{
+    font-size: large;
+    font-weight: 800;
+}
+.rating{
+    border: 0px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ratingp{
+    color: white;
+    width: fit-content;
+    border: 0px solid pink;
+    background-color: rgb(96,138,236);
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+}
+.discountpercent{
+    color: white;
+    background-color: rgb(122, 226, 25);
+    padding: 5px;
+    border-radius: 6px;
+}
